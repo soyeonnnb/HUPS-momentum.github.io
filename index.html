@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="clock" id="clock">
+      <h1 class="clock-present">00:00:00</h1>
+      <h3 class="clock-day">0000년 00월 00일 0요일</h3>
+    </div>
+
+    <div id="greeting">
+      <form class="askName">
+        <input required type="text" placeholder="What is your name?" />
+      </form>
+      <div class="showName hidden">
+        <h2>Hello name</h2>
+      </div>
+    </div>
+    <form id="todo-form">
+      <input required type="text" placeholder="Write a To Do and Press" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div class="Btn-box">
+      <button>🌈 RENAME</button>
+      <button class="todo-list__remove">🌈 REMOVE TO DO</button>
+      <button class="clock-changeLan">🌈 언어 | LAN</button>
+    </div>
+
+    <div id="lyrics">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <span class="bgImage-name"></span>>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/lyrics.js"></script>
+    <script src="js/bgImage.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/changeLan.js"></script
+  </body>
+</html>
